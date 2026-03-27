@@ -15,7 +15,7 @@ The notebook includes all necessary setup, training, evaluation, and ONNX model 
 *   **Success Replay Buffer**: A dedicated buffer for transitions from successful episodes, prioritized to improve exploration and learning in sparse reward environments.
 *   **Minigrid Environment Integration**: Custom wrappers for MiniGrid environments to handle image observations and scaling.
 *   **PyTorch Implementation**: All models and training logic are built using PyTorch.
-*   **ONNX Export**: Provides functionality to export the trained model into ONNX format for deployment or submission.
+*   **ONNX Export**: Provides functionality to export the trained model into ONNX format for deployment.
 
 ## Setup
 
