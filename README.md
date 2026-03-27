@@ -2,6 +2,8 @@
 
 This repository contains a Deep Q-Network (DQN) implementation in PyTorch for solving the `MiniGrid-DoorKey-6x6-v0` environment. The agent leverages several enhancements, including Double DQN, Huber Loss for stable training, and an Experience Replay Buffer that incorporates a separate buffer for successful episode transitions to accelerate learning.
 
+https://minigrid.farama.org/environments/minigrid/DoorKeyEnv/
+
 The notebook includes all necessary setup, training, evaluation, and ONNX model export steps, making it suitable for participation in reinforcement learning challenges.
 
 ## Features
