@@ -83,7 +83,7 @@ After training, you can evaluate the agent's performance:
 
 ### Exporting to ONNX
 
-For submission or deployment, the model needs to be exported to ONNX format. A utility function `save_as_onnx` is provided, along with a `CleanMlpMinigridPolicy` class to ensure the exported model is compatible with server-side evaluations (e.g., by baking the `/10.0` scaling into the first layer's weights).
+For deployment, the model needs to be exported to ONNX format. A utility function `save_as_onnx` is provided, along with a `CleanMlpMinigridPolicy` class to ensure the exported model is compatible with server-side evaluations (e.g., by baking the `/10.0` scaling into the first layer's weights).
 
 1.  **Run Export Cell**: Execute the cell that reloads the original PyTorch model, creates a clean version, adjusts weights, and exports it.
 
