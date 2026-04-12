@@ -19,7 +19,7 @@ The notebook includes all necessary setup, training, evaluation, and ONNX model 
 
 ## Setup
 
-To run this notebook, you'll need a Google Colab environment with GPU access. The following steps outline the setup process:
+To run this notebook, you'll need a Google Colab or any environment with GPU access. The following steps outline the setup process:
 
 1.  **Open in Google Colab**: Click the "Open in Colab" badge (if available) or upload the `.ipynb` file to your Colab environment.
 2.  **GPU Runtime**: Ensure you're using a GPU runtime. Go to `Runtime > Change runtime type` and select `GPU` as the hardware accelerator.
